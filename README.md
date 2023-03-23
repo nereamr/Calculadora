@@ -7,3 +7,13 @@ Para facilitar la organización de los elementos sigue las siguientes normas:
 * Paquete: es.dam.prog.<nombre+inicialesapellidos>.calculadora. Ejemplo: es.dam.prog.julianpp.calculadora
 * Documentación:
   * Agrega a cada fichero como sufijo tu nombre. Ejemplo: analisis.pu -> analisis_julian.pu
+
+## Estructura del proyecto
+
+* doc: Documentación
+  * analisis
+  * disenyo
+  * enunciado
+
+* lib: librerías
+* src: código fuente
