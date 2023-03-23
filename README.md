@@ -10,10 +10,10 @@ Para facilitar la organización de los elementos sigue las siguientes normas:
 
 ## Estructura del proyecto
 
-* doc: Documentación
-  * analisis
-  * disenyo
-  * enunciado
+* doc: Documentación del proyecto. Es recomendable utilizar plantuml, markdown y javadoc.
+  * analisis: Elementos de análisis
+  * disenyo: elementos de diseño
+  * enunciado: Texto del problema a resolver
 
 * lib: librerías
 * src: código fuente
