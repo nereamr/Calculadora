@@ -1,2 +1,15 @@
 @startuml
+package es.dam.prog.nereamr.calculadora{
+interface Calculable{
+    -sumar:
+    -restar:double
+    -multiplicar:double
+    -dividir:double
+}
+class Calculadora{}
+
+Calculable <|.. Calculadora
+}
+
+
 @enduml
