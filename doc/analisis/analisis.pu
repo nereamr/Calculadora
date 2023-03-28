@@ -1,35 +1,22 @@
 @startuml
 left to right direction
-<<<<<<< HEAD
-actor "Usuario" as fc
-rectangle Calculadora {
-  usecase "sumar" as UC1
-  usecase "sumarEnteros" as UC5
-  usecase "sumarReales" as UC6
-  usecase "restar" as UC2
-  usecase "multiplicar" as UC3
-  usecase "dividir" as UC4
-}
-fc --> UC1
-fc --> UC2
-fc --> UC3
-fc --> UC4
-UC1 --> UC5
-UC1 --> UC6
-@enduml
-=======
 actor Aplicación
 rectangle Calculadora{
     usecase Sumar
     usecase Dividir
+    usecase Restar
+    usecase Multiplicar
+    usecase Consultal el histórico de operaciones
     usecase "Sumar Enteros" as se
     usecase "Sumar Reales" as sr
 
     Aplicación -- Sumar
     Aplicación -- Dividir
+    Aplicación -- Restar
+    Aplicación -- Multiplicar
+    Aplicación -- Consultal el histórico de operaciones
 
     Sumar <|-- se
     Sumar <|-- sr
 }
 @enduml
->>>>>>> 1536181b68d95398c3af73a798f62af8bed14bfe
